@@ -1,0 +1,80 @@
+.student-home{
+  text-align: left;
+  margin: 50px auto;
+  width: 60%;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+  }
+  .navbar{
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 100px;
+    border-radius: 5px;
+  }
+  
+  .navbar-brand 
+    {
+      text-align: left;
+      color: white;
+      text-decoration: none;
+      font-size: 25px;
+      font-weight: bold;
+    }
+/* Add this to your StdHome.css file */
+
+.logout-confirmation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirmation-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.confirmation-box p {
+  font-weight: bold;
+  color: black;
+}
+
+.confirmation-box button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: black;
+  color: white;
+}
+
+.confirmation-box button:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.confirmation-box button.yes-button {
+  background-color: black;
+  color: white;
+}
+
+.confirmation-box button.no-button {
+  background-color: black;
+  color: white;
+}

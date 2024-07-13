@@ -1,0 +1,29 @@
+body {
+    background-color: white;
+  }
+  
+  .project-details {
+    padding-bottom: 50px;
+    max-width: 1000px;
+    margin: 90px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px black;
+  }
+  
+  .project-details h2 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .project-details p {
+    margin-bottom: 10px;
+    font-size: larger;
+  }
+  
+  .project-details strong {
+    font-weight: bold;
+    color: black;
+  }
+  

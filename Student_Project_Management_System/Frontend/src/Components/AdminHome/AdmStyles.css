@@ -1,0 +1,74 @@
+/* Adjustments for alignment of the buttons */
+.left {
+  margin-left: auto; /* Pushes the "Add Projects" link to the right */
+}
+
+.logout-button {
+  margin-left: 10px; /* Adjust the space between buttons */
+}
+
+  
+  .navbar-brand {
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+    
+  }
+  .button-left{
+    text-align: right;
+    font-weight: bold;
+    
+    width: 100px;
+    padding: 10px;
+    margin: 20px auto;
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease-in-out
+  }
+  /* Your CSS file */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  
+}
+
+.navbar-brand-container {
+  flex-grow: 1;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.button-logout {
+  padding: 8px 16px;
+  font-weight: bold;
+  color:white;
+  text-decoration: none;
+  border-radius: 5px;
+  border:white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-logout:hover {
+  background-color:#333;
+}
+
+  
+  

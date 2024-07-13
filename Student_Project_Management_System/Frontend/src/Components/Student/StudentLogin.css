@@ -1,0 +1,45 @@
+/* AdminLogin.css */
+.h2{
+  text-align: center;
+}
+.student-login-form{
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e6f0ff; /* Background color */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style form labels */
+  .student-login-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Style form inputs */
+  .student-login-form input[type="email"],
+  .student-login-form input[type="password"] {
+    width: calc(100% - 12px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the submit button */
+  .student-login-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db; /* Button background color */
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .student-login-form button[type="submit"]:hover {
+    background-color: #2980b9; /* Button hover color */
+  }
+  
